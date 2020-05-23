@@ -1,2 +1,2 @@
 # Portugol
-pasta de treinamentos com algoritmos
+ treinamento de algorítmos
