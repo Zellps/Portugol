@@ -40,7 +40,7 @@ programa
 		escreva("Digite o nome do aluno:")
 		leia(aluno)
 		escreva("O seu nome é: " + aluno)
-		escreva("Digite a nota 1:")
+		escreva("\nDigite a nota 1:")
 		leia(n1)
 		escreva("Digite a nota 2:")
 		leia(n2)
@@ -52,7 +52,13 @@ programa
 		media = (n1 + n2 + n3 + n4) / 4
 
 		escreva("O aluno " + aluno + " ficou com a média " + media + ".")
-		
+
+		se (media >= 7) {
+			escreva("\nParabéns sabidin")
+		}
+		senao {
+			escreva("\nComo vc é burro cara!")
+		}
 	}
 }
 
@@ -61,7 +67,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1359; 
+ * @POSICAO-CURSOR = 930; 
  * @DOBRAMENTO-CODIGO = [1];
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
